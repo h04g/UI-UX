@@ -1,0 +1,95 @@
+<ion-toolbar color="dark">
+  <ion-buttons  slot="start" (click)="backtoHome()">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </ion-buttons>
+  <ion-buttons  slot="end">
+    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+  </ion-buttons>
+</ion-toolbar>
+<ion-content  color="dark" [fullscreen]="true">
+
+
+  <div class="body" style="background-color: #F9869A;">
+    <ion-card style="background-color: bisque;">
+      <div class="image">
+        <img src="../assets/img/es.jpg" alt="">
+      </div>
+    </ion-card>
+    <h3>BLACK GIRL, CALL HOME</h3>
+    <h4>Jasmine Mans</h4>
+    <div class="info">
+      <ion-grid [fixed]="true">
+        <ion-row>
+          <ion-col size="4">
+            <span>Rating</span>
+            <p>4.2</p>
+          </ion-col>
+          <ion-col size="4">
+            <span>Number of Pages</span>
+            <p>350</p>
+          </ion-col>
+          <ion-col size="4">
+            <span>Language</span>
+            <p>ENG</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </div>
+    <h2>Overview</h2>
+    <p>
+      From spoken word poet Jasmine Mans comes an unforgettable poetry collection about race, feminism, and queer identity. <br>
+
+      With echoes of Gwendolyn Brooks and Sonia Sanchez, Mans writes to call herself—and us—home. Each poem explores what it means to be a daughter of Newark, and America—and the painful, joyous path to adulthood as a young, queer Black woman.<br>
+
+    </p>
+    <div class="last-btn">
+      <!-- <ion-grid [fixed]="true">
+        <ion-row>
+          <ion-col>
+            <ion-button color="dark" slot="start">
+              <span>Add to self</span>
+          </ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button style="background-color: #F9869A;" slot="end">
+              <span>Read now</span>
+          </ion-button>
+          </ion-col>
+
+
+        </ion-row>
+      </ion-grid> -->
+
+
+          <!-- <ion-button color="dark" fill="solid">
+            Add to Self
+          </ion-button>
+
+
+          <ion-button style="background-color: #F9869A;" class="read-btn" fill="solid">
+            <div class="read-now">
+              <p style="background-color: #F9869A;">Read Now</p>
+            </div>
+          </ion-button> -->
+
+          <button class = "button">
+            <p>Add to Self</p>
+         </button>
+         <button class = "button" (click)="reading()">
+          <p>Read Now</p>
+       </button>
+
+
+
+
+
+    </div>
+
+
+
+
+  </div>
+</ion-content>
+
+
