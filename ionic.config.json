@@ -4,9 +4,7 @@
     "capacitor": {
       "enabled": false
     },
-    "cordova": {
-
-    }
+    "cordova": {}
   },
   "type": "angular"
 }

@@ -34,6 +34,14 @@ const routes: Routes = [
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
   },
+  {
+    path: 'book-info',
+    loadChildren: () => import('./pages/book-info/book-info.module').then( m => m.BookInfoPageModule)
+  },
+  {
+    path: 'reading',
+    loadChildren: () => import('./pages/reading/reading.module').then( m => m.ReadingPageModule)
+  },
 
 ];
 

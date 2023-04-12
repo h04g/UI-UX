@@ -40,6 +40,7 @@
     "@ionic/cordova-builders": "^8.0.0",
     "angularx-qrcode": "^15.0.1",
     "bootstrap": "^5.2.3",
+    "cordova-res": "^0.15.4",
     "cordova-sqlite-storage": "^6.1.0",
     "ionicons": "^6.0.3",
     "rxjs": "^6.5.0",
@@ -86,7 +87,12 @@
     "phonegap-plugin-barcodescanner": "^8.1.0",
     "ts-node": "~8.3.0",
     "typescript": "~4.8.4",
-    "uk.co.workingedge.cordova.plugin.sqliteporter": "^1.1.1"
+    "uk.co.workingedge.cordova.plugin.sqliteporter": "^1.1.1",
+    "cordova-plugin-statusbar": "2.4.2",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-ionic-keyboard": "^2.0.5"
   },
   "description": "An Ionic project",
   "cordova": {
@@ -101,10 +107,13 @@
       },
       "cordova-plugin-file-transfer": {},
       "cordova-plugin-advanced-http": {},
-      "cordova-plugin-inappbrowser": {}
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
     },
-    "platforms": [
-      "android"
-    ]
+    "platforms": []
   }
 }
