@@ -54,4 +54,25 @@ h4{
   margin-left: 10%;
   margin-bottom: 20%;
 }
+@media (min-width: 1024px) {
+  img{
+    width: 40%;
+  }
+  .flex-center{
+    margin-top: 10%;
+    margin-right: 10%;
+    height: 50%;
+    align-items: center;
+    justify-content: end;
+  }
+  .body {
+    margin-bottom: 10%;
+    margin-top: -260px;
+  }
+  ion-buttons{
 
+    align-items: center;
+
+    display: flex;
+  }
+}

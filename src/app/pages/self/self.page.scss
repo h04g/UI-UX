@@ -59,3 +59,18 @@ ion-card-title{
 ion-card-subtitle{
   margin-top: 5%
 }
+@media (min-width: 1024px ) {
+  .card{
+    width: 100%;
+  }
+  ion-card{
+    width: 48%;
+
+  }
+  .image{
+    width: 100%;
+  }
+  .image img {
+    margin-top: 10%;
+  }
+}

@@ -38,3 +38,8 @@ ion-title{
 .setting ion-toolbar:first-child {
   margin-top: 20%;
 }
+@media (min-width: 1024px ) {
+  .avatar{
+    margin-top: 5%;
+  }
+}

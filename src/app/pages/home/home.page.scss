@@ -82,3 +82,14 @@ ion-card-title{
   border-radius: 60px 60px 0 0;
 
 }
+@media (min-width: 1023px ) {
+  ion-card{
+    width: 30%;
+  }
+  ion-slide{
+    width: 500px;
+  }
+}
+@media (min-width: 1023px ) {
+
+}
