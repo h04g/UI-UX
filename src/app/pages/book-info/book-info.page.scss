@@ -128,3 +128,15 @@ span{
 
 }
 
+@media (min-width: 720px ) {
+  ion-card img{
+    margin-top: 10%;
+  }
+  ion-card{
+    height: 280px;
+
+    margin-left: 35%;
+    margin-right: 35%;
+
+  }
+}

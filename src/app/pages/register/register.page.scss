@@ -73,3 +73,22 @@ ion-icon{
 .item-logo{
   margin: 0 20px 0 20px;
 }
+@media (min-width: 1023px ) {
+  h2 {
+    margin-top: 0;
+  }
+  ion-button{
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+  }
+  .sign{
+
+    height: 75%;
+  }
+}
+@media (min-width: 1023px ) {
+  .sign{
+    margin-top: 5%;
+  }
+}
