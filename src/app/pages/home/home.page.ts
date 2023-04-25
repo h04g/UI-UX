@@ -16,7 +16,7 @@ export class HomePage implements OnInit {
     centeredSlides: true,
     loop: true,
     spaceBetween: 10,
-    // autoplay: true,
+    autoplay: true,
 
   }
   goToBookInfo(){

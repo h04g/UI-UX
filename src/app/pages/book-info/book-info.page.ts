@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ToastController } from '@ionic/angular';
 @Component({
   selector: 'app-book-info',
   templateUrl: './book-info.page.html',
@@ -7,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class BookInfoPage implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router:Router, private toastCtrl: ToastController) { }
 
   ngOnInit() {
   }
@@ -17,5 +18,18 @@ export class BookInfoPage implements OnInit {
   }
   reading(){
     this.router.navigate(['reading']);
+  }
+  addToSelf(){
+    this.presentToast();
+  }
+  async presentToast(){
+    const toast = await this.toastCtrl.create({
+      message: 'Book added to Sefl',
+      mode: 'ios',
+      duration: 1000,
+      position: 'top',
+
+    });
+    toast.present();
   }
 }

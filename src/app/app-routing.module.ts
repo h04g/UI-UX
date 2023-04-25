@@ -42,6 +42,14 @@ const routes: Routes = [
     path: 'reading',
     loadChildren: () => import('./pages/reading/reading.module').then( m => m.ReadingPageModule)
   },
+  {
+    path: 'category',
+    loadChildren: () => import('./pages/category/category.module').then( m => m.CategoryPageModule)
+  },
+  {
+    path: 'search',
+    loadChildren: () => import('./pages/search/search.module').then( m => m.SearchPageModule)
+  },
 
 ];
 
