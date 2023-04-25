@@ -39,41 +39,34 @@
   <div class="body" style="background-color: #F9869A;">
     <div class="title">
       <ion-card-title>
-        Popular
+        Category
     </ion-card-title>
     </div>
-    <ion-slides [options]="option" class="ion-margin-top">
-      <ion-slide>
-        <ion-card style="background-color: whitesmoke;">
-          <img src="../assets/img/481.webp" alt="">
-          <ion-card-header>
-            <span>How To Not Die Alone</span>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-item>
+            <p>Detective</p>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-item>
+            <p>Funny</p>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-item>
+            <p>Comic</p>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-item>
+            <p>Horror</p>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 
-          </ion-card-header>
-        </ion-card>
-
-      </ion-slide>
-      <ion-slide>
-        <ion-card style="background-color: whitesmoke;" (click)="goToBookInfo()">
-          <img src="../assets/img/3.jpg" alt="">
-          <ion-card-header>
-            <span>The Psychology of Money</span>
-          </ion-card-header>
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-        <ion-card style="background-color: whitesmoke;" (click)="goToBookInfo()">
-          <div class="image">
-            <img src="../assets/img/es.jpg" alt="">
-          </div>
-
-          <ion-card-header>
-            <span>Black Girl, Call Home</span>
-
-          </ion-card-header>
-        </ion-card>
-      </ion-slide>
-    </ion-slides>
 
     <div class="title">
       <ion-card-title>

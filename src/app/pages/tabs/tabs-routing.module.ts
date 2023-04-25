@@ -28,6 +28,15 @@ const routes: Routes = [
         ]
       },
       {
+        path:'category',
+        children:[
+          {
+            path: '',
+            loadChildren: () => import('../category/category.module').then( m => m.CategoryPageModule)
+          },
+        ]
+      },
+      {
         path:'profile',
         children:[
 

@@ -1,6 +1,17 @@
 ion-tab-button{
-  background-color: #F9869A;
+  background-color: #ffffff;
   color: black;
   border-top: 2px solid black;
   max-width: 100%;
+}
+ion-buttons{
+  border: 2px solid #F9869A;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+}
+ion-buttons ion-icon{
+  align-items: center;
+
 }

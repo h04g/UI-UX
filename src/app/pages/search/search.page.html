@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="white">
+    <ion-searchbar
+    [animated]="true"
+    debounce="800"
+    #searchInput
+    placeholder="Search for books, Category...."
+    >
+
+    </ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <ng-container *ngIf="books?.length > 0">
+    <ion-list lines="none">
+      <ion-item *ngFor="let book of books " class="ion-margin-top">
+        <ion-thumbnail slot="start">
+          <img src="../assets/img/d.webp" alt="">
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text>
+            {{ book?.name }}
+          </ion-text>
+          <p *ngIf="book?.name">
+            <ion-text>
+              {{ getCategories(book?.Categories)}}
+            </ion-text>
+          </p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ng-container> -->
+
+</ion-content>

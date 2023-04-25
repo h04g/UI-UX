@@ -1,20 +1,6 @@
-.header{
-  display: flex;
-  align-items: center;
-  text-align: center;
+ion-content{
+  --ion-background-color:#F9869A;
 }
-ion-icon{
-  color: #F9869A ;
-  height: 40px;
-  width: 50px;
-}
-
-h2{
-  margin-left: 4%;
-  font-weight: 700;
-  font-size: 25px;
-}
-
 ion-card{
   width: 90%;
   height: 200px;
@@ -41,8 +27,37 @@ ion-card{
     transition: 600ms all ease-in-out;
   }
 }
+ion-icon{
+  color: #F9869A ;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+}
+@media (min-width: 1024px ) {
+  .card{
+    width: 100%;
+  }
+  ion-card{
+    width: 47%;
 
-.image{
-  width: 90px;
-    height: 150px;
+  }
+  .image{
+    width: 100%;
+  }
+  .image img {
+    margin-top: 10%;
+  }
+}
+h1{
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-weight: 600;
+  align-items: center;
+
+  display: flex;
+
+}
+.title{
+  color: black;
+  margin-right: 5px;
 }
